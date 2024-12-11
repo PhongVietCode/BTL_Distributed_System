@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from matplotlib.patches import Rectangle
 NUM_SAMPLING_TASKS = 10
-NUM_SAMPLES_PER_TASK = 100_000
+NUM_SAMPLES_PER_TASK = 10_000
 TOTAL_NUM_SAMPLES = NUM_SAMPLING_TASKS * NUM_SAMPLES_PER_TASK
 ray.init()
 
